@@ -13,10 +13,10 @@
 <body>
 <%
     List<Employee> employees = new ArrayList<>();
-    employees.add(new Employee(1, "Nguyễn Chí Anh", 20, "Tổng giám đốc","Phòng giám đốc","9999999$"));
-    employees.add(new Employee(2, "Nguyễn Chí Khánh", 19, "Trưởng phòng vệ sinh","Cả công ty","1000$"));
-    employees.add(new Employee(3, "Nguyễn Chí Sâm", 19, "Trưởng phòng bảo vệ","Bãi gửi xe và cả công ty","2000$"));
-    employees.add(new Employee(4, "Nguyễn Chí Trang", 19, "Nhân viên quèn","Đáy xã hội","999$"));
+    employees.add(new Employee("1", "Nguyễn Chí Anh", 20, "Tổng giám đốc","Phòng giám đốc",99999.0));
+    employees.add(new Employee("2", "Nguyễn Chí Khánh", 19, "Trưởng phòng vệ sinh","Cả công ty",1000.0));
+    employees.add(new Employee("3", "Nguyễn Chí Sâm", 19, "Trưởng phòng bảo vệ","Bãi gửi xe và cả công ty","1000.0"));
+    employees.add(new Employee("4", "Nguyễn Chí Trang", 19, "Nhân viên quèn","Đáy xã hội",999.0));
 
     request.setAttribute("employees", employees);
 %>
