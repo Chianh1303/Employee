@@ -9,7 +9,7 @@
 <body>
 <h1>Danh sach nhan vien</h1>
 <br>
-<a href="employee?action=add">Add Employee</a>
+<a href="employee?action=add">Display Employee</a>
 <table border="1">
     <thead>
     <tr>
@@ -19,6 +19,8 @@
         <th>jobPosition</th>
         <th>department</th>
         <th>salary</th>
+        <th>action</th>
+
     </tr>
     </thead>
     <tbody>
@@ -27,8 +29,10 @@
             <td>${employee.id}</td>
             <td>${employee.name}</td>
             <td>${employee.age}</td>
+            <td>${employee.jobPosition}</td>
             <td>${employee.department}</td>
             <td>${employee.salary}</td>
+
             <td>
                 <a href="employee?action=edit&id=${employee.id}">Edit</a>
                 <a href="employee?action=delete&id=${employee.id}" >Delete</a>
