@@ -1,12 +1,12 @@
 package org.example.employeeemplement;
 
 public class Employee {
-private int id;
-private String name;
-private int age;
-private String position;
-private String departments;
-private String salary;
+    private int id;
+    private String name;
+    private int age;
+    private String position;
+    private String departments;
+    private String salary;
 
     public Employee(int id, String name, int age, String position, String departments, String salary) {
         this.id = id;
@@ -76,4 +76,6 @@ private String salary;
                 ", salary='" + salary + '\'' +
                 '}';
     }
+//
+//sadhashdkasjdak
 }
